@@ -80,6 +80,24 @@ h1, h2, h3, h4, h5 {
 	align-items: center;
 	
 }
+.container2 {
+	display: flex;
+	/* justify-content: center; */
+	
+	/* define dir of main axis*/
+	/*flex-direction: row;*/
+	flex-direction: column;
+	/*flex-wrap: nowrap;*/
+	flex-wrap: wrap;
+	/*operates in cros
+	/*operates in main direction*/
+	justify-content: center;
+	
+	align-items: center;
+
+	width: 100%;
+	
+}
 
 header {
 	display: flex;
@@ -275,3 +293,134 @@ header {
     top: -90px;
     right: -190px; 
 }  
+footer-services {
+	width: 500px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    /* top: -90px;
+    right: -190px;  */
+}  
+
+#services-top-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* align-content: ; */
+	width: 73%;
+	padding: 10px 5px 20px 50px;
+	margin: -38px 5px 20px 50px;
+	right: -20px;
+	
+	
+}
+.long-txt {
+		display: flex;
+		flex-direction: column;
+		background-color: pink;
+		justify-content: left;
+		padding: 10px 5px 25px 50px;
+	   /* margin: 10px 5px 25px 50px; */
+		border: 10px solid black;
+		margin: -25px 5px 20px 50px;
+		width: 73%;
+		font-size: 24px;
+	
+	  
+	
+}
+
+.long-txt p {
+	font-size: 16px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.design {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.ux-ui {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+	width: 33%;;
+}
+
+.marketing {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+	width: 33%;
+}
+
+.web-dev {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.ios-dev {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.andriod-dev {
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	
+	/* align-content: flex-start; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+   /* margin: 10px 5px 25px 50px; */
+    border: 10px solid black;
+    width: 60%;
+}
