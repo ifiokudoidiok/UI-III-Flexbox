@@ -172,7 +172,7 @@ header {
 	
 } 
 
-.divider {
+.divider-top {
 	display: flex;
 	position: relative;
 	/* left: 30px; */
@@ -184,79 +184,94 @@ header {
 	text-align: center;
 }
 
-/* .mid-img {
+ .mid-img {
 	width: 60%;
 	
     padding: 10px 5px 0px 0px;
-    margin: -120px 5px 25px 200px;
+    margin: -124px 5px 25px 35px;
 	border: 10px solid rgba(0, 0, 0, 0);
 		
-} */
+} 
 
-/* .features {
-	
+.features {
+	display: flex;
+	flex-direction: column;
 	padding: -10px 50px 250px 500px;
-	 margin: -280px 5px 25px 200px; 
+	 margin: -50px 5px 25px 35px; 
 	border: 10px solid rgba(0, 0, 0, 0);
 	width: 450px;
-} */
+	/* bottom: -190px; */
+} 
 
-/* .about {
-	
+ .about {
+	display: flex;
+	flex-direction: column;
 	padding: -10px 50px 25px 500px;
 	
 	border: 10px solid rgba(0, 0, 0, 0);
 	width: 450px;
 	top: -140px; 
-	right: -650px;
+	left: 484px;
 	 position: relative;
 	
-} */
+} 
 
-/* .services {
+ .services {
 	
 	padding: -10px 50px 250px 500px;
-	margin: -10px 5px 25px 200px; 
+	margin: -8px 5px 25px 35px; 
 	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
-} */
+	
+} 
 
-/* .product {
+ .product {
 
 	padding: -10px 50px 25px 500px;
 	
 	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
 	top: -172px; 
-	right: -500px;
+	right: -335px;
 	 position: relative;
-} */
+} 
 
-/* .vision {
+ .vision {
 	
 	padding: -10px 50px 25px 500px;
 	
 	border: 10px solid rgba(0, 0, 0, 0);
 	width: 300px;
 	top: -320px; 
-	left: 800px;
+	left: 632px;
 	 position: relative;
-} */
+} 
 
-/* .contact {
+.divider-bottom {
+	display: flex;
+	position: relative;
+	left: 45px;
+	bottom: 272px;
+	border: 1px solid grey;
+	/* margin: 50px 5px 25px 25px;
+	padding: 10px 0px 10px 0px; */
+	width: 93%;
+	/* text-align: center; */
+}
+ .contact {
 	 width: 500px;
     height: 50px;
     
     position: relative;
-    top: -230px;
-    right: -220px; 
-} */ 
+    top: -233px;
+    right: 175px; 
+} 
 
-/* footer {
+ footer {
 	width: 500px;
     height: 50px;
     font-size: 13px;
     position: relative;
-    top: -80px;
-    right: -580px; 
-}  */
+    top: -90px;
+    right: -190px; 
+}  
