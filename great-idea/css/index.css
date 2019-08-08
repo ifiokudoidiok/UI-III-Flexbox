@@ -344,8 +344,8 @@ footer-services {
 
 .design {
 	display: flex;
-	flex-direction: row;
-	flex-flow: wrap;
+	flex-direction: column;
+	/* flex-flow: wrap; */
 	/* justify-content: space-evenly; */
 	background-color: pink;
     padding: 10px 5px 25px 50px;
@@ -357,7 +357,7 @@ footer-services {
 .ux-ui {
 	display: flex;
 	flex-direction: row;
-	flex-flow: wrap;
+	/* flex-flow: wrap; */
 	/* justify-content: space-evenly; */
 	background-color: pink;
     padding: 10px 5px 25px 50px;
@@ -369,7 +369,7 @@ footer-services {
 .marketing {
 	display: flex;
 	flex-direction: row;
-	flex-flow: wrap;
+	/* flex-flow: wrap; */
 	/* justify-content: space-evenly; */
 	background-color: pink;
     padding: 10px 5px 25px 50px;
@@ -381,7 +381,7 @@ footer-services {
 .web-dev {
 	display: flex;
 	flex-direction: row;
-	flex-flow: wrap;
+	/* flex-flow: wrap; */
 	/* justify-content: space-evenly; */
 	background-color: pink;
     padding: 10px 5px 25px 50px;
