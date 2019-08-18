@@ -64,3 +64,363 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container {
+	display: flex;
+	/* justify-content: center; */
+	
+	/* define dir of main axis*/
+	/*flex-direction: row;*/
+	flex-direction: column;
+	/*flex-wrap: nowrap;*/
+	flex-wrap: wrap;
+	/*operates in cros
+	/*operates in main direction*/
+	justify-content: center;
+	
+	align-items: center;
+	
+}
+.container2 {
+	display: flex;
+	/* justify-content: center; */
+	
+	/* define dir of main axis*/
+	/*flex-direction: row;*/
+	flex-direction: column;
+	/*flex-wrap: nowrap;*/
+	flex-wrap: wrap;
+	/*operates in cros
+	/*operates in main direction*/
+	justify-content: center;
+	
+	align-items: center;
+
+	width: 100%;
+	
+}
+
+header {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+	color: grey;
+	padding: 0px 5px 25px 50px;
+	
+    margin: 0px 5px 25px 0px;
+	border: 10px solid rgba(0, 0, 0, 0);
+	
+}
+
+ nav {
+	display: flex;
+	flex-direction: row;
+	/* justify-content: space-around;
+	align-items: center;
+	/* left: 200px; */
+	/* text-align: center; */
+	
+	
+	 
+} 
+
+ nav a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	/* text-align: center; */
+	margin: 0px -20px 0px 5px; 
+	width: 10%;
+	/* background-color: red; */
+  	font-size: 14px;
+	padding-top: 25px;
+	padding-left: 150px;
+	padding-right: -50px;
+	text-decoration: none;
+	color: grey;
+	/* width: 100px; */
+	  
+}
+
+ .logo {
+	position: relative;
+	right: 200px;
+	top: 12px;
+} 
+
+ .title-txt {
+	box-sizing: border-box;
+	flex-direction: column;
+	justify-content: left;
+	align-items: flex-start;
+	display: flex;
+	width: 80%;
+	height: 100px;
+	color: grey;
+    padding: 20px 5px 10px 50px;
+    margin: 50px 5px 25px 250px;
+	border: 10px solid rgba(0, 0, 0, 0);
+	
+	
+	
+	font-size: 80px;	
+	
+} 
+
+#get-started {
+	font-size: 18px;
+	position: relative;
+	bottom: 60px;
+	left: 30px;
+	
+	border: 2px solid grey;
+	margin: 50px 5px 25px 25px;
+	padding: 5px 0px 10px 0px;
+	width: 180px;
+	text-align: center;
+} 
+
+ .header-img {
+	 display: flex;
+	position: relative;
+	 bottom: 154px; 
+	left: 260px; 
+	
+} 
+
+.divider-top {
+	display: flex;
+	position: relative;
+	/* left: 30px; */
+	top: -77px;
+	border: 1px solid grey;
+	/* margin: 50px 5px 25px 25px;
+	padding: 10px 0px 10px 0px; */
+	width: 67%;
+	text-align: center;
+}
+
+ .mid-img {
+	width: 60%;
+	
+    padding: 10px 5px 0px 0px;
+    margin: -124px 5px 25px 35px;
+	border: 10px solid rgba(0, 0, 0, 0);
+		
+} 
+
+.features {
+	display: flex;
+	flex-direction: column;
+	padding: -10px 50px 250px 500px;
+	 margin: -50px 5px 25px 35px; 
+	border: 10px solid rgba(0, 0, 0, 0);
+	width: 450px;
+	/* bottom: -190px; */
+} 
+
+ .about {
+	display: flex;
+	flex-direction: column;
+	padding: -10px 50px 25px 500px;
+	
+	border: 10px solid rgba(0, 0, 0, 0);
+	width: 450px;
+	top: -140px; 
+	left: 484px;
+	 position: relative;
+	
+} 
+
+ .services {
+	
+	padding: -10px 50px 250px 500px;
+	margin: -8px 5px 25px 35px; 
+	border: 10px solid rgba(0, 0, 0, 0);
+	width: 300px;
+	
+} 
+
+ .product {
+
+	padding: -10px 50px 25px 500px;
+	
+	border: 10px solid rgba(0, 0, 0, 0);
+	width: 300px;
+	top: -172px; 
+	right: -335px;
+	 position: relative;
+} 
+
+ .vision {
+	
+	padding: -10px 50px 25px 500px;
+	
+	border: 10px solid rgba(0, 0, 0, 0);
+	width: 300px;
+	top: -320px; 
+	left: 632px;
+	 position: relative;
+} 
+
+.divider-bottom {
+	display: flex;
+	position: relative;
+	left: 45px;
+	bottom: 272px;
+	border: 1px solid grey;
+	/* margin: 50px 5px 25px 25px;
+	padding: 10px 0px 10px 0px; */
+	width: 93%;
+	/* text-align: center; */
+}
+ .contact {
+	 width: 500px;
+    height: 50px;
+    
+    position: relative;
+    top: -233px;
+    right: 175px; 
+} 
+
+ footer {
+	width: 500px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    top: -90px;
+    right: -190px; 
+}  
+footer-services {
+	width: 500px;
+    height: 50px;
+    font-size: 13px;
+    position: relative;
+    /* top: -90px;
+    right: -190px;  */
+}  
+
+#services-top-img {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	/* align-content: ; */
+	width: 73%;
+	padding: 10px 5px 20px 50px;
+	margin: -38px 5px 20px 50px;
+	right: -20px;
+	
+	
+}
+.long-txt {
+		display: flex;
+		flex-direction: column;
+		background-color: pink;
+		justify-content: left;
+		padding: 10px 5px 25px 50px;
+	   /* margin: 10px 5px 25px 50px; */
+		border: 10px solid black;
+		margin: -25px 5px 20px 50px;
+		width: 73%;
+		font-size: 24px;
+	
+	  
+	
+}
+
+.long-txt p {
+	font-size: 16px;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	justify-content: space-around;
+	width: 100%;
+}
+
+.design {
+	display: flex;
+	flex-direction: column;
+	/* flex-flow: wrap; */
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.ux-ui {
+	display: flex;
+	flex-direction: row;
+	/* flex-flow: wrap; */
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+	width: 33%;;
+}
+
+.marketing {
+	display: flex;
+	flex-direction: row;
+	/* flex-flow: wrap; */
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+	width: 33%;
+}
+
+.web-dev {
+	display: flex;
+	flex-direction: row;
+	/* flex-flow: wrap; */
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.ios-dev {
+	display: flex;
+	flex-direction: row;
+	flex-flow: wrap;
+	/* justify-content: space-evenly; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.andriod-dev {
+	display: flex;
+	flex-direction: column;
+	flex-flow: wrap;
+	
+	/* align-content: flex-start; */
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+    margin: 10px 5px 25px 50px; 
+    border: 10px solid black;
+    width: 33%;
+}
+
+.bottom-container {
+	display: flex;
+	flex-direction: row;
+	background-color: pink;
+    padding: 10px 5px 25px 50px;
+   /* margin: 10px 5px 25px 50px; */
+    border: 10px solid black;
+    width: 60%;
+}
